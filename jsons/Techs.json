@@ -110,7 +110,7 @@
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": ["Enables embarkation for land units", "Enables [Embarked] units to enter ocean tiles", "Enables [Water] units to enter ocean tiles"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
@@ -144,6 +144,7 @@
 				"name": "Philosophy",
 				"row": 2,
 				"prerequisites": ["Writing","Calendar"],
+                                "uniques": ["Enables Open Borders agreements", "Enables conversion of city production to science","Enables Research agreements"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
@@ -156,6 +157,7 @@
 				"name": "Currency",
 				"row": 7,
 				"prerequisites": ["Mathematics"],
+                                "uniques": ["Enables conversion of city production to gold"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
@@ -175,24 +177,24 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Modern era",
-		"techCost": 99999999999,
-		"buildingCost": 99999,
-		"wonderCost": 999999,
+		"era": "Classical era",
+		"techCost": 4250,
+		"buildingCost": 375,
+		"wonderCost": 625,
 		"techs": [
 			{
 				"name": "You... shall not... PASS!!",
 				"row": 6,
 				"prerequisites": ["Engineering","Philosophy","Drama and Poetry","Currency","Iron Working"],
-				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
-				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
+				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched", "[+1 Gold, +1 Culture, +1 Production, +1 Food, +1 Happiness] [in capital]"],
+				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No... it's ok now, just no farther. Nice science, here's a bone."
 			},
 		]
 	},
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 999275,
+		"techCost": 9999999275,
 		"buildingCost": 999120,
 		"wonderCost": 999300,
 		"techs": [
@@ -206,14 +208,13 @@
 				"name": "Civil Service",
 				"row": 5,
 				"prerequisites": ["You... shall not... PASS!!"],
-				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Guilds",
 				"row": 7,
 				"prerequisites": ["You... shall not... PASS!!"],
-				"uniques": ["Enables conversion of city production to gold"],
+		
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
@@ -227,7 +228,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Medieval era",
-		"techCost": 999485,
+		"techCost": 999999485,
 		"buildingCost": 999160,
 		"wonderCost": 999400,
 		"techs": [
@@ -242,7 +243,7 @@
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to science","Enables Research agreements"],
+				
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
@@ -275,14 +276,14 @@
 	{
 		"columnNumber": 8,
 		"era": "Renaissance era",
-		"techCost": 799980,
+		"techCost": 79999980,
 		"buildingCost": 999200,
 		"wonderCost": 999500,
 		"techs": [
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},

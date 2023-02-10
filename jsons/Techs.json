@@ -144,7 +144,7 @@
 				"name": "Philosophy",
 				"row": 2,
 				"prerequisites": ["Writing","Calendar"],
-                                "uniques": ["Enables Open Borders agreements", "Enables conversion of city production to science","Enables Research agreements"],
+                                "uniques": ["Enables Open Borders agreements", "Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
@@ -157,7 +157,7 @@
 				"name": "Currency",
 				"row": 7,
 				"prerequisites": ["Mathematics"],
-                                "uniques": ["Enables conversion of city production to gold"],
+                                "uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{

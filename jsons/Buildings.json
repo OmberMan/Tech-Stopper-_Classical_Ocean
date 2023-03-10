@@ -66,4 +66,52 @@
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Optics"
 	},
+	{
+		"name": "Hagia Sophia",
+		"faith": 3,
+                "culture": 1,
+		"isWonder": true,
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
+		"requiredTech": "Drama and Poetry",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Machu Picchu",
+		"gold": 5,
+                "faith": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Engineering",
+		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+	},
+	{
+		"name": "Angkor Wat",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"requiredTech": "Philosophy",
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 5,
+		"cityHealth": 15,
+                "culture": 1,
+                "maintenance": 1,
+		"hurryCostModifier": 20,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Engineering",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Iron Working"
+	},
 ]

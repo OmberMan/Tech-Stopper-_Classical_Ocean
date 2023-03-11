@@ -133,7 +133,7 @@
 		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1},
 		"requiredBuilding": "National College",
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]", "[+15]% Great Person generation [in this city]",],
-		"requiredTech": "Drama & Poetry"
+		"requiredTech": "Drama and Poetry"
 	},
 	// Column 16
 	{

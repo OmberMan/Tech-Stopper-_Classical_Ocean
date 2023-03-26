@@ -4,10 +4,10 @@
         "era": "Medieval era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 20,
+            "Cultural": 10,
+            "Diplomatic": 30,
             "Domination": 0,
-            "Scientific": 0
+            "Scientific": 10
         },
         "uniques": ["[-25]% City-State Influence degradation"],
         "policies": [
@@ -70,7 +70,7 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
-            "Diplomatic": 10,
+            "Diplomatic": 20,
             "Domination": 10,
             "Scientific": 10
         },
@@ -137,13 +137,13 @@
     },
     {
         "name": "Rationalism",
-        "era": "Renaissance era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
             "Diplomatic": 10,
             "Domination": 10,
-            "Scientific": 20
+            "Scientific": 30
         },
         "uniques": [
             "[+15]% [Science] <while the empire is happy>",
@@ -206,10 +206,10 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 20,
-            "Diplomatic": 20,
-            "Domination": 10,
-            "Scientific": 20
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 10
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
@@ -267,15 +267,15 @@
         "name": "Autocracy",
         "era": "Classical era",
         "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 40,
-            "Domination": 50,
-            "Scientific": 40
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Upon capturing a city, receive [10] times its [Culture] production as [Science ] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -336,11 +336,11 @@
         "name": "Order",
         "era": "Classical era",
         "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 10
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
@@ -351,7 +351,7 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation"
                 ],
                 "row": 1,
                 "column": 1
@@ -360,7 +360,7 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+25]% [Science] from every [Factory]",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                    "[+25]% Production when constructing [Production] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3

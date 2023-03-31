@@ -64,7 +64,6 @@
             }
         ]
     },
-    },
 	{
 		"name": "Commerce",
 		"uniques": ["[+25]% [Gold] [in capital]", "Unlocks building Big Ben"],

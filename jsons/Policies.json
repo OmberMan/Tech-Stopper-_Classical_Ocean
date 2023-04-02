@@ -213,7 +213,7 @@
             "Cultural": 10,
             "Diplomatic": 10,
             "Domination": 10,
-            "Scientific": 30
+            "Scientific": 20
         },
         "uniques": [
             "[+10]% [Science] <while the empire is happy>",
@@ -345,7 +345,7 @@
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Science ] immediately",
+            "Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -358,7 +358,7 @@
             },
             {
                 "name": "Militarism",
-                "uniques": ["[Gold] cost of purchasing [All] units [-33]%", "[-33]% maintenance costs <for [Land] units>"],
+                "uniques": ["[Gold] cost of purchasing [All] units [-33]%", "[-25]% maintenance costs <for [Land] units>"],
                 "row": 1,
                 "column": 4
             },
@@ -429,7 +429,7 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "[+25]% [Science] from every [Factory]",
+                    "[+2 Science] from every [Factory]", "[+2 Science] from every [Workshop]",
                     "[+25]% Production when constructing [Production] buildings [in all cities]"
                 ],
                 "row": 1,

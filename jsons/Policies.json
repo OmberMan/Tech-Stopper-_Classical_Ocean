@@ -4,10 +4,10 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 30,
+            "Cultural": 5,
+            "Diplomatic": 20,
             "Domination": 0,
-            "Scientific": 10
+            "Scientific": 5
         },
         "uniques": ["[-25]% City-State Influence degradation"],
         "policies": [
@@ -65,10 +65,17 @@
         ]
     },
 	{
-		"name": "Commerce",
-		"uniques": ["[+25]% [Gold] [in capital]", "Unlocks building Big Ben"],
-		"era": "Classical era",
-		"policies": [
+	"name": "Commerce",
+	"uniques": ["[+25]% [Gold] [in capital]", "Unlocks building Big Ben"],
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 15,
+            "Domination": 0,
+            "Scientific": 5
+        },
+	"era": "Classical era",
+	"policies": [
 			{
 				"name": "Wagon Trains",
 				"uniques": ["[-50]% maintenance on road & railroads", "[+2 Gold] from each Trade Route"
@@ -117,6 +124,13 @@
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>","Unlocks building the Louvre"],
 		"era": "Classical era",
+                "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 10
+        },
 		"policies": [
 			{
 				"name": "Maritime Infrastructure",
@@ -161,7 +175,14 @@
 		"name": "Aesthetics",
 		"era": "Classical era",
 		"uniques": ["[Great Artist] is earned [33]% faster","Unlocks building the Uffizi"],
-		"policies": [
+		"priorities": {
+            "Neutral": 0,
+            "Cultural": 20,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 0
+        },
+                "policies": [
 			{
 				"name": "Cultural Centers",
 				"uniques": ["[+100]% Production when constructing [Monument] buildings [in all cities]",
@@ -210,10 +231,10 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 20
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 15
         },
         "uniques": [
             "[+10]% [Science] <while the empire is happy>",
@@ -276,8 +297,8 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 10,
+            "Cultural": 5,
+            "Diplomatic": 15,
             "Domination": 0,
             "Scientific": 10
         },
@@ -340,8 +361,8 @@
             "Neutral": 0,
             "Cultural": 0,
             "Diplomatic": 0,
-            "Domination": 10,
-            "Scientific": 0
+            "Domination": 20,
+            "Scientific": 10
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
@@ -408,9 +429,9 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
-            "Diplomatic": 10,
-            "Domination": 0,
-            "Scientific": 10
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 15
         },
         "uniques": [
             "[+2 Happiness] [in all cities]",

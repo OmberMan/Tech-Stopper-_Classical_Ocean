@@ -178,9 +178,9 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 4250,
-		"buildingCost": 375,
-		"wonderCost": 625,
+		"techCost": 1500,
+		"buildingCost": 200,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "You... shall not... PASS!!",
@@ -194,9 +194,9 @@
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 9999999275,
-		"buildingCost": 999120,
-		"wonderCost": 999300,
+		"techCost": 500000,
+		"buildingCost": 500000,
+		"wonderCost": 500000,
 		"techs": [
 			{
 				"name": "Theology",

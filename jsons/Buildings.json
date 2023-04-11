@@ -23,7 +23,7 @@
 		"faith": 8,
 		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
-		"requiredTech": "Drama and Poetry",
+		"requiredTech": "Philosophy",
 		"isNationalWonder": true
 	},
 	{
@@ -33,7 +33,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"requiredTech": "Engineering"
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Longhouse",
@@ -45,7 +45,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
-		"requiredTech": "Engineering"
+		"requiredTech": "Sailing"
         },
 	{
 		"name": "Forge",
@@ -55,7 +55,7 @@
 		"requiredTech": "Iron Working",
 		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"]
+			"[+2 Production] from [Iron] tiles [in this city]"]
 	},
 	{
 		"name": "Harbor",
@@ -103,7 +103,7 @@
                 "maintenance": 1,
 		"hurryCostModifier": 20,
 		"requiredBuilding": "Walls",
-		"requiredTech": "Mathematics",
+		"requiredTech": "Engineering",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -125,15 +125,15 @@
 	},
 	{
 		"name": "University",
-		"maintenance": 3,
-                "cost": 250,
+		"maintenance": 2,
+                "cost": 140,
 		"hurryCostModifier": 40,
                 "greatPersonPoints": {"Great Scientist": 1},
 		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1},
 		"requiredBuilding": "National College",
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]", "[+20]% Great Person generation [in this city]",],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Drama and Poetry"
 	},
 	// Column 16
 	{
@@ -153,7 +153,7 @@
 		"name": "Utopia Project",
 		"cost": 800,
 		"isNationalWonder": true,
-                "requiredTech": "Philosophy",
+                "requiredTech": "Drama and Poetry",
 		"uniques": ["Hidden until [3] social policy branches have been completed", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 	},

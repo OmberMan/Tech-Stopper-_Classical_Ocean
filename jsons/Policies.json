@@ -640,7 +640,7 @@
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[8] units cost no maintenance", "[+2 Gold, +1 Happiness] from all [Happiness] buildings"], ],
+                "uniques": ["[8] units cost no maintenance", "[+2 Gold, +1 Happiness] from all [Happiness] buildings"],
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1

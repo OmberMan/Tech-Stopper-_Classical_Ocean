@@ -737,11 +737,11 @@
         "name": "Order",
         "era": "Classical era",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 5,
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 15,
             "Domination": 10,
-            "Scientific": 15
+            "Scientific": 20
         },
         "uniques": [
             "[+20]% [Happiness] [in all cities]", "[+1 Production] per [4] population [in all cities]",
@@ -761,7 +761,7 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+2 Science, +1 Food, +1 Production] from every [Factory]", "[+2 Science, +1 Food, +1 Production] from every [Workshop]",
-                    "[+25]% Production when constructing [Production] buildings [in all cities]"
+                    "[+25]% Production when constructing [Production] buildings [in all cities connected to the capital]"
                 ],
                 "row": 1,
                 "column": 3
@@ -778,7 +778,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-20]% maintenance cost for buildings [in all cities]"
+                    "[-25]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3

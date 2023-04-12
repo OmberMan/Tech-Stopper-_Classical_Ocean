@@ -255,7 +255,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+2 Culture, +1 Faith] [in all cities] <while the empire is happy>", "[+20]% Natural religion spread [in all cities] <while the empire is happy>""
+                    "[+2 Culture, +1 Faith] [in all cities] <while the empire is happy>", "[+20]% Natural religion spread [in all cities] <while the empire is happy>"
                 ],
                 "row": 1,
                 "column": 5

@@ -156,8 +156,8 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
-            "Diplomatic": 5,
-            "Domination": 30,
+            "Diplomatic": 10,
+            "Domination": 25,
             "Scientific": 5
         },
         "uniques": [
@@ -201,7 +201,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "Earn [10]% of the damage done to [Land] units as [Culture]",
-                    "New [Military] units start with [25] Experience [in all cities] <when not at war>"
+                    "New [Military] units start with [20] Experience [in all cities] <when not at war>"
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
@@ -494,7 +494,6 @@
         "uniques": ["[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>","Unlocks building the Louvre"
         ],
-
         "policies": [
 			{
 				"name": "Maritime Infrastructure",
@@ -626,7 +625,7 @@
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>", "Resting point for Influence with City-States is increased by [15]"],
+                "uniques": ["[+33]% Strength for cities <when defending>", "Resting point for Influence with City-States is increased by [15]", "[+2] population in a random city <upon entering a Golden Age>"],
                 "row": 1,
                 "column": 3
             },
@@ -648,7 +647,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[10]% of excess happiness converted to [Science]", "[10]% of excess happiness converted to [Gold]", "[10]% of excess happiness converted to [Culture]"
+                    "[15]% of excess happiness converted to [Science]", "[15]% of excess happiness converted to [Gold]", "[15]% of excess happiness converted to [Culture]"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -718,7 +717,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities] <when at war>",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [10] Experience [in all cities]"
                 ],
                 "requires": ["Police State", "Fascism"],
                 "row": 3,
@@ -744,7 +743,7 @@
             "Scientific": 20
         },
         "uniques": [
-            "[+20]% [Happiness] [in all cities]", "[+1 Production] per [4] population [in all cities]",
+ "[-20]% Unhappiness from [Population] [in all cities]", "[+1 Production] per [4] population [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -778,7 +777,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-25]% maintenance cost for buildings [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]"
+                    "[-25]% maintenance cost for buildings [in all cities]", "[+10]% [Happiness] [in all non-occupied cities]"
                 ],
                 "row": 2,
                 "column": 3

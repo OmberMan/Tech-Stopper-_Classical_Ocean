@@ -17,10 +17,10 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 14,
-            "Diplomatic": 12,
-            "Domination": 12,
-            "Scientific": 12
+            "Cultural": 15,
+            "Diplomatic": 15,
+            "Domination": 10,
+            "Scientific": 10
         },
         "uniques": [
             "[+3 Culture] [in capital]",
@@ -155,9 +155,9 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 10,
+            "Cultural": 15,
             "Diplomatic": 10,
-            "Domination": 25,
+            "Domination": 20,
             "Scientific": 5
         },
         "uniques": [
@@ -190,7 +190,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+1 Production, +1 Culture] from every [Barracks]",
-                    "[+100]% Production when constructing [Barracks] buildings [in all cities with a garrison]","[+100]% Production when constructing [Walls] buildings [in all cities with a garrison]","[+100]% Production when constructing [Castle] buildings [in all cities with a garrison]","[+100]% Production when constructing [Armoury] buildings [in all cities with a garrison]",
+                    "[+100]% Production when constructing [Barracks] buildings [in all cities with a garrison]","[+100]% Production when constructing [Walls] buildings [in all cities with a garrison]","[+100]% Production when constructing [Castle] buildings [in all cities with a garrison]","[+100]% Production when constructing [Armory] buildings [in all cities with a garrison]",
                     "[+1 Happiness, +1 Production] [in all cities with a garrison]"
                 ],
                 "requires": ["Warrior Code"],
@@ -759,7 +759,7 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "[+2 Science, +1 Food, +1 Production] from every [Factory]", "[+2 Science, +1 Food, +1 Production] from every [Workshop]",
+                    "[+2 Science, +1 Food, +1 Production, +1 Culture] from every [Factory]", "[+2 Science, +1 Food, +1 Production, +1 Culture] from every [Workshop]",
                     "[+25]% Production when constructing [Production] buildings [in all cities connected to the capital]"
                 ],
                 "row": 1,
@@ -777,7 +777,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-25]% maintenance cost for buildings [in all cities]", "[+10]% [Happiness] [in all non-occupied cities]"
+                    "[-33]% maintenance cost for buildings [in all cities]", "[+10]% [Happiness] [in all non-occupied cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -787,8 +787,8 @@
                 "requires": ["Socialism"],
                 "uniques": [
                     "[+2 Production, +2 Food] [in all cities]",
-                    "[+1 Production] from every [Mine]", "When defeating a [Land] unit, earn [1] Gold and recruit it <with [10]% chance]>",
-                    "[+1 Production] from every [Quarry]"
+                    "[+1 Production] from every [Mine]", "When defeating a [Land] unit, earn [1] Gold and recruit it <with [10]% chance>",
+                    "[+1 Production] from every [Quarry]", "[+1 Production] from every [Farm]"
                 ],
                 "row": 3,
                 "column": 3

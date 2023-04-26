@@ -157,8 +157,8 @@
             "Neutral": 10,
             "Cultural": 15,
             "Diplomatic": 10,
-            "Domination": 20,
-            "Scientific": 5
+            "Domination": 15,
+            "Scientific": 10
         },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
@@ -308,9 +308,9 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 15,
+            "Cultural": 10,
             "Diplomatic": 20,
-            "Domination": 5,
+            "Domination": 10,
             "Scientific": 10
         },
         "uniques": ["[-25]% City-State Influence degradation"],
@@ -374,10 +374,10 @@
         "era": "Classical era",
         "priorities": {
            "Neutral": 10,
-           "Cultural": 25,
+           "Cultural": 20,
            "Diplomatic": 10,
            "Domination": 10,
-           "Scientific": 5
+           "Scientific": 10
         },
 	"uniques": ["Unlocks building the Uffizi", "[+1 Culture] from every [Artist]", "[50]% of excess happiness converted to [Culture]"
         ],
@@ -669,8 +669,8 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
-            "Diplomatic": 5,
-            "Domination": 25,
+            "Diplomatic": 10,
+            "Domination": 20,
             "Scientific": 10
         },
         "uniques": [
@@ -737,10 +737,10 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 5,
+            "Cultural": 10,
             "Diplomatic": 15,
             "Domination": 10,
-            "Scientific": 20
+            "Scientific": 15
         },
         "uniques": [
  "[-20]% Unhappiness from [Population] [in all cities]", "[+1 Production] per [4] population [in all cities]",

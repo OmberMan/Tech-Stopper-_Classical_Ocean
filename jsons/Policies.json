@@ -751,7 +751,7 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Nullifies [Happiness] <when between [0] and [-15] Happiness>"
+                    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Nullifies [Happiness] <when between [0] and [-15] Happiness>", "[+2 Production, +2 Food] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -786,7 +786,6 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+2 Production, +2 Food] [in all cities]",
                     "[+1 Production] from every [Mine]", "When defeating a [Land] unit, earn [1] Gold and recruit it <with [10]% chance>",
                     "[+1 Production] from every [Quarry]", "[+1 Production] from every [Farm]"
                 ],

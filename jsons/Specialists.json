@@ -1,1 +1,10 @@
-
+[
+	{
+		"name":"Oracle at Delphi",
+		"science": 1,
+		"culture": 2,
+  "faith": 3,
+		"greatPersonPoints": {"Great Scientist":3},
+		"color": [135,10,105]
+	},
+]

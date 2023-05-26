@@ -88,7 +88,7 @@
 	{
 		"name": "Machu Picchu",
 		"gold": 5,
-                "faith": 2,
+  "faith": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"culture": 1,
 		"isWonder": true,
@@ -101,7 +101,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[-45]% maintenance cost for buildings [in this city]", "[+15]% Production when constructing [All] buildings [in all cities]"],
 		"requiredTech": "Philosophy",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
@@ -150,8 +150,8 @@
         "cost": 125,
         "gold": 4,
         "isNationalWonder": true,
-        "uniques": ["[+1 Gold] from each Trade Route",
-            "Cost increases by [30] per owned city","Requires a [Market] in all cities"],
+        "uniques": ["[+3 Gold] from each Trade Route",
+            "Cost increases by [20] per owned city","Requires a [Market] in all cities"],
         "requiredTech": "Currency"
     },
 	// Column 16

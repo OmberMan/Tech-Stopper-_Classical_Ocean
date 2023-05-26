@@ -16,6 +16,16 @@
 		"requiredTech": "Mathematics",
 		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
 	},
+{
+		"name": "The Oracle",
+		"culture": 2,
+  "faith": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Philosophy",
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
 	{
 		"name": "Grand Temple",
 		"cost": 125,

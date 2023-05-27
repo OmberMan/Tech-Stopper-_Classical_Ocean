@@ -20,7 +20,7 @@
 		"name": "The Oracle",
 		"culture": 2,
   "faith": 2,
-		"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Oracle of Delphi": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Philosophy",

@@ -56,7 +56,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+1 Food] from every [Palace]",
+                    "[+10]% [Food] from every [Palace]",
                     "[+1 Food] from every [Walls]",
                     "[+1 Food] from every [Castle]",
                     "[+1 Food] from every [Arsenal]",
@@ -309,9 +309,9 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
-            "Diplomatic": 20,
+            "Diplomatic": 15,
             "Domination": 10,
-            "Scientific": 10
+            "Scientific": 15
         },
         "uniques": ["[-25]% City-State Influence degradation"],
         "policies": [
@@ -374,7 +374,7 @@
         "era": "Classical era",
         "priorities": {
            "Neutral": 10,
-           "Cultural": 20,
+           "Cultural": 15,
            "Diplomatic": 10,
            "Domination": 10,
            "Scientific": 10
@@ -540,9 +540,9 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
-            "Diplomatic": 10,
+            "Diplomatic": 15,
             "Domination": 10,
-            "Scientific": 20
+            "Scientific": 15
         },
         "uniques": [
             "[+10]% [Science]",
@@ -606,9 +606,9 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 15,
+            "Cultural": 10,
             "Diplomatic": 15,
-            "Domination": 5,
+            "Domination": 10,
             "Scientific": 15
         },
         "uniques": [
@@ -670,8 +670,8 @@
             "Neutral": 10,
             "Cultural": 10,
             "Diplomatic": 10,
-            "Domination": 20,
-            "Scientific": 10
+            "Domination": 15,
+            "Scientific": 15
         },
         "uniques": [
             "[-33]% maintenance costs <for [Military] units>",

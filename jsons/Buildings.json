@@ -4,7 +4,7 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
   "culture": 1,
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -94,7 +94,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles", "[+3 Food, +2 Gold, + 1 Production, +1 Faith] from [Mountain] tiles [in this city]"],
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles", "[+3 Food, +2 Gold, +1 Production, +1 Faith] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Engineering",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
@@ -194,7 +194,7 @@
 
 	{
 		"name": "Utopia Project",
-		"cost": 800,
+		"cost": 1500,
 		"isNationalWonder": true,
                 "requiredTech": "Drama and Poetry",
 		"uniques": ["Hidden until [4] social policy branches have been completed", "Triggers a global alert upon build start",

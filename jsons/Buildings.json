@@ -2,6 +2,7 @@
 	{
 		"name": "Garden",
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+  "culture": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
@@ -9,7 +10,8 @@
 	{
 		"name": "Chichen Itza",
 		"culture": 1,
-		"happiness": 4,
+		"happiness": 3,
+  "faith": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[+50]% Golden Age length"],
@@ -20,7 +22,7 @@
 		"name": "The Oracle",
 		"culture": 2,
   "faith": 2,
-		"greatPersonPoints": {"Oracle of Delphi": 1},
+		"specialistSlots": {"Oracle of Delphi": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Philosophy",
@@ -50,7 +52,7 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 100,
-		"maintenance": 2,
+		"maintenance": 1,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
@@ -114,7 +116,7 @@
 		"hurryCostModifier": 20,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Engineering",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
 		"name": "Armory",
@@ -138,7 +140,7 @@
 		"maintenance": 2,
                 "cost": 140,
 		"hurryCostModifier": 40,
-                "greatPersonPoints": {"Great Scientist": 1},
+  "greatPersonPoints": {"Great Scientist": 1},
 		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1},
 		"requiredBuilding": "National College",
@@ -169,9 +171,10 @@
 	{
         "name": "East India Company", 
         "cost": 125,
-        "gold": 4,
+        "gold": 3,
         "isNationalWonder": true,
-        "uniques": ["[+3 Gold] from each Trade Route",
+        "specialistSlots": {"Merchant": 2},
+        "uniques": ["[+4 Gold] from each Trade Route",
             "Cost increases by [20] per owned city","Requires a [Market] in all cities"],
         "requiredTech": "Currency"
     },
@@ -180,7 +183,7 @@
 		"name": "United Nations",
 		"isWonder": true,
 		"culture": 1,
-                "cost": 800,
+  "cost": 1500,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Philosophy",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
@@ -194,7 +197,7 @@
 		"cost": 800,
 		"isNationalWonder": true,
                 "requiredTech": "Drama and Poetry",
-		"uniques": ["Hidden until [3] social policy branches have been completed", "Triggers a global alert upon build start",
+		"uniques": ["Hidden until [4] social policy branches have been completed", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 	},
 	{

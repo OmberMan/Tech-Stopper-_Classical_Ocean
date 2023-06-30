@@ -3,8 +3,8 @@
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Currency",
+		"turnsToBuild": 6,
+		"techRequired": "Construction",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "[+1 Gold] <with [1] to [6] neighboring [Luxury resource] tiles>", "[+1 Gold] <with [2] to [6] neighboring [Luxury resource] tiles>", "[+1 Gold] <with [2] to [6] neighboring [Bonus resource] tiles>", "[+1 Gold, -1 Food] <with [3] to [6] neighboring [Luxury resource] tiles>", "Pillaging this improvement yields approximately [+25 Gold]"],
 		"shortcutKey": "T"
 	},

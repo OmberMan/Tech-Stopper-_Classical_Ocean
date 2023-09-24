@@ -56,7 +56,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% [Food] from every [Palace]",
+                    "[+15]% [Food] from every [Palace]",
                     "[+1 Food] from every [Walls]",
                     "[+1 Food] from every [Castle]",
                     "[+1 Food] from every [Arsenal]",
@@ -164,7 +164,7 @@
             "[+33]% Strength <vs [Barbarian] units>",
             "Receive triple Gold from Barbarian encampments and pillaging Cities"
             "[+5] Unit Supply",
-            "[+15]% Strength <for [Wounded] units>",
+            "[+10]% Strength <for [Wounded] units>",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -220,7 +220,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units>",
+                    "[+10]% Strength <for [Melee] units>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -395,13 +395,13 @@
 			},
 			{
 				"name": "Tourism Destination",
-				"uniques": ["[+1 Gold, +1 Culture] from all [Culture] buildings","[+2 Gold, +1 Happiness] from all [Culture] buildings <during a Golden Age>", "[+10]% [Gold] [in all cities with a world wonder]"],
+				"uniques": ["[+1 Gold] from all [Culture] buildings","[+1 Gold, +1 Happiness] from all [Culture] buildings <during a Golden Age>", "[+15]% [Gold] [in all cities with a world wonder]"],
 				"row": 1,
 				"column": 4
 			},
 			                	{
 				"name": "Architectural Wonders",
-				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","[+10]% Production when constructing [Culture] wonders [in all cities]"],
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","[+20]% Production when constructing [Culture] wonders [in all cities]"],
 				"requires": ["Cultural Centers", "Tourism Destination"],
 				"row": 2,
 				"column": 3
@@ -503,7 +503,7 @@
 			},
 						{
 				"name": "Naval Tradition",
-				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]", "[-33]% maintenance costs <for [Water]> units>"],
+				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]", "[-33]% maintenance costs <for [Water] units>"],
 				"row": 1,
 				"column": 4
 			},

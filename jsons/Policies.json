@@ -16,9 +16,9 @@
         "name": "Tradition",
         "era": "Ancient era",
         "priorities": {
-            "Neutral": 10,
+            "Neutral": 15,
             "Cultural": 15,
-            "Diplomatic": 15,
+            "Diplomatic": 10,
             "Domination": 10,
             "Scientific": 10
         },
@@ -155,7 +155,7 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 15,
+            "Cultural": 10,
             "Diplomatic": 10,
             "Domination": 15,
             "Scientific": 10

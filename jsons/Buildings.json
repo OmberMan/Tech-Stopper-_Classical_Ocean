@@ -141,7 +141,7 @@
   "cost": 140,
 		"hurryCostModifier": 30,
   "greatPersonPoints": {"Great Scientist": 1},
-		"percentStatBonus": {"science": 15},
+		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1},
 		"requiredBuilding": "Library",
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]", "[+20]% Great Person generation [in this city]"],

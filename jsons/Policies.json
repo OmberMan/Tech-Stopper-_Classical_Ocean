@@ -138,7 +138,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+2 Happiness] [in all cities connected to capital]"
+                    "[+3 Happiness] [in all cities connected to capital]"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
@@ -146,7 +146,7 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": ["Free Great Person", "[+1 Happiness] [in all cities]"]
             }
         ]
     },
@@ -201,7 +201,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "Earn [10]% of the damage done to [Land] units as [Culture]",
-                    "New [Military] units start with [20] Experience [in all cities] <when not at war>"
+                    "New [Military] units start with [15] Experience [in all cities] <when not at war>"
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
@@ -246,7 +246,7 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith] from every [Shrine]",
-                    "[+20]% [Faith] from every [Temple]",
+                    "[+10]% [Faith] from every [Temple]",
                     "[Faith] cost of purchasing items in cities [-20]%",
                 ],
                 "row": 1,
@@ -255,7 +255,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+2 Culture, +1 Faith] [in all cities] <while the empire is happy>", "[+20]% Natural religion spread [in all cities] <while the empire is happy>"
+                    "[+1 Culture, +1 Faith] [in all cities] <while the empire is happy>", "[+20]% Natural religion spread [in all cities] <while the empire is happy>"
                 ],
                 "row": 1,
                 "column": 5
@@ -379,7 +379,7 @@
            "Domination": 10,
            "Scientific": 10
         },
-	"uniques": ["Unlocks building the Uffizi", "[+1 Culture] from every [Artist]", "[50]% of excess happiness converted to [Culture]"
+	"uniques": ["Unlocks building the Uffizi", "[+1 Culture] from every [Artist]", "[33]% of excess happiness converted to [Culture]"
         ],
         "policies": [
 			{
@@ -395,13 +395,13 @@
 			},
 			{
 				"name": "Tourism Destination",
-				"uniques": ["[+1 Gold] from all [Culture] buildings","[+1 Gold, +1 Happiness] from all [Culture] buildings <during a Golden Age>", "[+15]% [Gold] [in all cities with a world wonder]"],
+				"uniques": ["[+1 Gold] from all [Culture] buildings","[+1 Gold] from all [Culture] buildings <during a Golden Age>", "[+15]% [Gold] [in all cities with a world wonder]"],
 				"row": 1,
 				"column": 4
 			},
 			                	{
 				"name": "Architectural Wonders",
-				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","[+20]% Production when constructing [Culture] wonders [in all cities]"],
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","[+25]% Production when constructing [Culture] wonders [in all cities]"],
 				"requires": ["Cultural Centers", "Tourism Destination"],
 				"row": 2,
 				"column": 3
@@ -436,7 +436,7 @@
             "Domination": 10,
             "Scientific": 15
         },
-        "uniques": ["[+25]% [Gold] [in capital]", "Unlocks building Big Ben"], 
+        "uniques": ["[+25]% [Gold] [in capital]", "Unlocks building Big Ben", "[+1 Gold] from every [Merchant]"], 
 	"policies": [
 			{
 				"name": "Wagon Trains",
@@ -447,7 +447,7 @@
 			},
 			{
 				"name": "Mercenary Army",
-				"uniques": ["May buy [Landsknecht] units with [Gold] for [5] times their normal Production cost", "[Gold] cost of purchasing [{Military} {Land}] units [-25]%"],
+				"uniques": ["May buy [Landsknecht] units with [Gold] for [5] times their normal Production cost", "[Gold] cost of purchasing [{Military} {Land}] units [-33]%"],
 				"row": 1,
 				"column": 4
 			},
@@ -516,7 +516,7 @@
 			},
 			{
 				"name": "Navigation School",
-				"uniques": ["[+2 Science] from each Trade Route", "[+3 Science, +1 Happiness] for every known Natural Wonder", "[+1] Movement <for [Embarked] units>"],
+				"uniques": ["[+2 Science] from each Trade Route", "[+3 Science, +1 Happiness] for every known Natural Wonder", "[+1] Movement <for [Embarked] units>", "[+1] Sight <for [Embarked] units>", "[+1] Sight <for [Scout] units>"],
 				"requires": ["Naval Tradition"],
 				"row": 2,
 				"column": 5
@@ -619,7 +619,7 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture, +1 Happiness] from every [Wonder]", "[+1 Happiness] from every specialist [in all non-occupied cities]"],
+                "uniques": ["[+2 Culture, +3 Happiness] from every [Wonder]", "[+1 Happiness] from every specialist [in all non-occupied cities]"],
                 "row": 1,
                 "column": 1
             },
@@ -639,7 +639,7 @@
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[8] units cost no maintenance", "[+2 Gold, +1 Happiness] from all [Happiness] buildings", "[+1 Happiness] per [3] social policies adopted"],
+                "uniques": ["[8] units cost no maintenance", "[+1 Gold, +1 Happiness] from all [Happiness] buildings", "[+1 Happiness] per [3] social policies adopted"],
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1
@@ -682,13 +682,13 @@
         "policies": [
             {
                 "name": "Populism",
-                "uniques": ["[+20]% Strength <for [Land] units> <vs [Wounded] units>"],
+                "uniques": ["[+20]% Strength <for [Land] units> <vs [Wounded] units> <when attacking>"],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Militarism",
-                "uniques": ["[2] free [Melee] units appear <upon declaring war with a major Civilization>", "Gain [2] [Culture] <upon gaining a [Military] unit>", "[-25]% maintenance costs <for [Land] units>"],
+                "uniques": ["[4] free [Melee] units appear <upon declaring war with a major Civilization>", "Gain [6] [Culture] <upon gaining a [Military] unit>", "[-25]% maintenance costs <for [Land] units>"],
                 "row": 1,
                 "column": 4
             },
@@ -743,7 +743,7 @@
             "Scientific": 15
         },
         "uniques": [
- "[-20]% Unhappiness from [Population] [in all cities]", "[+1 Production] per [4] population [in all cities]",
+ "[-20]% Unhappiness from [Population] [in all cities]", "[+1 Production] per [3] population [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -751,7 +751,7 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Nullifies [Happiness] <when between [0] and [-15] Happiness>", "[+2 Production, +2 Food] [in all cities]"
+                    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Nullifies [Happiness] <when between [0] and [-15] Happiness>", "[+3 Production, +3 Food] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -760,7 +760,7 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+2 Science, +1 Food, +1 Production, +1 Culture] from every [Factory]", "[+2 Science, +1 Food, +1 Production, +1 Culture] from every [Workshop]",
-                    "[+25]% Production when constructing [Production] buildings [in all cities connected to the capital]"
+                    "[+33]% Production when constructing [Production] buildings [in all cities connected to the capital]"
                 ],
                 "row": 1,
                 "column": 3

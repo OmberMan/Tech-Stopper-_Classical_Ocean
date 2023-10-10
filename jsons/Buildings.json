@@ -83,7 +83,7 @@
 		"faith": 3,
   "culture": 1,
 		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled", "[+1 Faith] from [Fort] tiles [in all cities]"],
 		"requiredTech": "Drama and Poetry",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -111,9 +111,9 @@
 		"name": "Castle",
 		"cityStrength": 10,
 		"cityHealth": 20,
-                "culture": 1,
-                "maintenance": 1,
-		"hurryCostModifier": 20,
+  "culture": 1,
+  "maintenance": 1,
+		"hurryCostModifier": 40,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Engineering",
 		"uniques": ["Destroyed when the city is captured"],
@@ -130,7 +130,7 @@
 		"name": "Observatory",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 25},
+		"percentStatBonus": {"science": 33},
 		"requiredBuilding": "Library",
 		"uniques": ["Must be next to [Mountain]"],
 		"requiredTech": "Optics"
@@ -138,7 +138,7 @@
 	{
 		"name": "University",
 		"maintenance": 2,
-                "cost": 140,
+  "cost": 140,
 		"hurryCostModifier": 40,
   "greatPersonPoints": {"Great Scientist": 1},
 		"percentStatBonus": {"science": 15},
@@ -172,6 +172,7 @@
         "name": "East India Company", 
         "cost": 125,
         "gold": 3,
+        "percentStatBonus": {"gold": 33},
         "isNationalWonder": true,
         "specialistSlots": {"Merchant": 2},
         "uniques": ["[+4 Gold] from each Trade Route",
@@ -186,7 +187,7 @@
   "cost": 1500,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Philosophy",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
@@ -194,11 +195,12 @@
 
 	{
 		"name": "Utopia Project",
-		"cost": 1500,
+		"cost": 2000,
+  "percentStatBonus": {"culture": 2000},
 		"isNationalWonder": true,
                 "requiredTech": "Drama and Poetry",
 		"uniques": ["Hidden until [4] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+			"Triggers a Cultural Victory upon completion", "Cannot be hurried"]
 	},
 	{
         "name": "Parthenon", 

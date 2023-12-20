@@ -760,7 +760,7 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+2 Science, +1 Food, +1 Production, +1 Culture] from every [Factory]", "[+2 Science, +1 Food, +1 Production, +1 Culture] from every [Workshop]",
-                    "[+33]% Production when constructing [Production] buildings [in all cities connected to the capital]"
+                    "[+50]% Production when constructing [Production] buildings [in capital]"
                 ],
                 "row": 1,
                 "column": 3

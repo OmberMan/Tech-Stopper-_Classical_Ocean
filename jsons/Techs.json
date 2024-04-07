@@ -175,8 +175,43 @@
 			}
 		]
 	},
+        {
+                "columnNumber": 5,
+                "era": "Classical era",
+                "techCost": 210,
+                "buildingCost": 175,
+                "wonderCost": 350,
+                "techs": [
+                        {
+                                "name": "Optics",
+                                "cost": 85,
+                                "row": 1,
+                                "prerequisites": ["Sailing"],
+                                "uniques": ["Enables embarkation for land units", "Enables [Embarked] units to enter ocean tiles", "Enables [Water] units to enter ocean tiles"],
+                                "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+                        },
+                        {
+                                "name": "Horseback Riding",
+                                "row": 5,
+                                "prerequisites": ["Trapping","The Wheel"],
+                                "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+                        },
+                        {
+                                "name": "Mathematics",
+                                "row": 7,
+                                "prerequisites": ["The Wheel"],
+                                "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+                        },
+                        {
+                                "name": "Construction",
+                                "row": 9,
+                                "prerequisites": ["Masonry","The Wheel"],
+                                "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+                        }
+                ]
+        },
 	{
-		"columnNumber": 5,
+		"columnNumber": 6,
 		"era": "Classical era",
 		"techCost": 1500,
 		"buildingCost": 200,
@@ -192,7 +227,7 @@
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 500000,
 		"buildingCost": 500000,
@@ -233,7 +268,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 8,
 		"era": "Medieval era",
 		"techCost": 999999485,
 		"buildingCost": 999160,
@@ -281,7 +316,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 79999980,
 		"buildingCost": 999200,
@@ -321,7 +356,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 10,
 		"era": "Renaissance era",
 		"techCost": 199150,
 		"buildingCost": 999250,
@@ -360,7 +395,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 991600,
 		"buildingCost": 999300,
@@ -405,7 +440,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Industrial era",
 		"techCost": 239950,
 		"buildingCost": 999360,
@@ -439,7 +474,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 993100,
 		"buildingCost": 999500,
@@ -478,7 +513,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Modern era",
 		"techCost": 499100,
 		"buildingCost": 999500,
@@ -511,7 +546,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 995100,
 		"buildingCost": 999500,
@@ -544,7 +579,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Atomic era",
 		"techCost": 996400,
 		"buildingCost": 999500,
@@ -577,7 +612,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 997700,
 		"buildingCost": 999750,
@@ -624,7 +659,7 @@
 	},
 
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Information era",
 		"techCost": 998800,
 		"buildingCost": 999750,
@@ -663,7 +698,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 19,
 		"era": "Future era",
 		"techCost": 999500,
 		"buildingCost": 999750,

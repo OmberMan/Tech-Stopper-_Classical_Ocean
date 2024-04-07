@@ -204,6 +204,13 @@
 				"prerequisites": ["You... shall not... PASS!!"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
+{
+				"name": "Compass",
+				"cost": 9999999,
+				"row": 1,
+				"prerequisites": ["Optics","Theology"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
 			{
 				"name": "Civil Service",
 				"row": 5,

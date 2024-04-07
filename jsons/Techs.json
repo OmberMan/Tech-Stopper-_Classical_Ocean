@@ -183,11 +183,11 @@
                 "wonderCost": 350,
                 "techs": [
                         {
-                                "name": "Optics",
-                                "cost": 85,
+                                "name": "Astral Navigation",
+                                "cost": 175,
                                 "row": 1,
                                 "prerequisites": ["Sailing"],
-                                "uniques": ["Enables embarkation for land units", "Enables [Embarked] units to enter ocean tiles", "Enables [Water] units to enter ocean tiles"],
+                                "uniques": ["[+1] Movement <for [Naval] units>", "Enables [Embarked] units to enter ocean tiles", "Enables [Water] units to enter ocean tiles"],
                                 "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
                         },
                         {

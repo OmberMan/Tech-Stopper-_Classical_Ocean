@@ -29,6 +29,47 @@
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Ceilidh Hall",
+		"replaces": "Opera House",
+		"uniqueTo": "Celts",
+		"culture": 4,
+		"happiness": 3,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Ironworks"
+	},
+	{
 		"name": "Grand Temple",
 		"cost": 125,
 		"culture": 1,
@@ -37,6 +78,15 @@
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Philosophy",
 		"isNationalWonder": true
+	},
+	{
+		"name": "Kremlin",
+		"culture": 3,
+		"cityStrength": 12,
+		"isWonder": true,
+		"uniques": ["[+25]% City Strength from defensive buildings", "Enables nuclear weapon", "Triggers a global alert upon completion"],
+		"requiredTech": "Metallurgy",
+		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
 	{
 		"name": "Workshop",

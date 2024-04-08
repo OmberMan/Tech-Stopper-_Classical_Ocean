@@ -31,7 +31,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Happiness] per [5] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -39,7 +39,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Provides the cheapest [Culture] building in your first [3] cities for free", "Provides the cheapest [Food] building in your first [3] cities for free"
+                
                 ],
                 "row": 1,
                 "column": 3
@@ -78,8 +79,9 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+10]% growth [in all cities with a garrison]",
-                    "Provides a [Aqueduct] in your first [4] cities for free",
+                    "[+10]% growth [in all cities with a garrison]", 
+                    "Provides a [Aqueduct] in your first [4] cities for free", "[+33]% Production when constructing [National] wonders [in capital]",
+                   
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -100,7 +102,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+1 Production] [in all cities]",
+                    "[+1 Production] [in all cities]", "[+1 Happiness] [in all cities]",
                     "[+10]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
@@ -128,7 +130,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Each city founded increases culture cost of policies [33]% less than normal", "[-15]% Culture cost of natural border growth [in all cities]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -171,7 +173,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "[+20]% Production when constructing [Melee] units [in all cities]",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -189,7 +191,7 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+1 Production, +1 Culture] from every [Barracks]",
+                    "[+1 Production, +1 Culture] from every [Barracks]", "[+25]% City Strength from defensive buildings",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities with a garrison]","[+100]% Production when constructing [Walls] buildings [in all cities with a garrison]","[+100]% Production when constructing [Castle] buildings [in all cities with a garrison]","[+100]% Production when constructing [Armory] buildings [in all cities with a garrison]",
                     "[+1 Happiness, +1 Production] [in all cities with a garrison]"
                 ],
@@ -239,7 +241,7 @@
         "uniques": [
             "[+100]% Production when constructing [Faith] buildings [in all cities]",
             "[+100]% Production when constructing [Faith] wonders [in all cities]",
-            "[+1 Faith] [in capital]"
+            "[+2 Faith] [in capital]"
         ],
         "policies": [
             {
@@ -503,7 +505,7 @@
 			},
 						{
 				"name": "Naval Tradition",
-				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]", "[-33]% maintenance costs <for [Water] units>"],
+				"uniques": ["[+1 Happiness, +1 Gold, + Food, +1 Culture] from every [Lighthouse]","[+1 Happiness, +1 Production, +2 Gold] from every [Harbor]", "[-33]% maintenance costs <for [Water] units>"],
 				"row": 1,
 				"column": 4
 			},

@@ -187,24 +187,28 @@
                                 "cost": 175,
                                 "row": 1,
                                 "prerequisites": ["Sailing"],
-                                "uniques": ["[+1] Movement <for [Naval] units>", "Enables [Embarked] units to enter ocean tiles", "Enables [Water] units to enter ocean tiles"],
+                                "uniques": ["[+1] Movement <for [Naval] units>"],
                                 "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
                         },
                         {
-                                "name": "Horseback Riding",
+                                "name": "Stirrups",
                                 "row": 5,
+				"uniques": ["[+1] Movement <for [Mounted] units>", "[+10]% Strength <for [Mounted] units>"],
                                 "prerequisites": ["Trapping","The Wheel"],
                                 "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
                         },
                         {
-                                "name": "Mathematics",
+                                "name": "Apprenticeship",
                                 "row": 7,
                                 "prerequisites": ["The Wheel"],
+				"uniques": ["[+1 Gold] from every specialist [in all cities]"],
+                                
                                 "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
                         },
                         {
-                                "name": "Construction",
+                                "name": "Military Theory",
                                 "row": 9,
+				"uniques": ["[+15]% Strength <for [Sword] units>"],
                                 "prerequisites": ["Masonry","The Wheel"],
                                 "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
                         }

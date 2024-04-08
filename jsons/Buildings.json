@@ -85,7 +85,7 @@
 		"cityStrength": 12,
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings", "Enables nuclear weapon", "Triggers a global alert upon completion"],
-		"requiredTech": "Metallurgy",
+		"requiredTech": "You... shall not... PASS!!",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
 	{

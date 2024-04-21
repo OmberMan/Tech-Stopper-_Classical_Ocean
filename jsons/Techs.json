@@ -117,6 +117,7 @@
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["Trapping","The Wheel"],
+				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
@@ -144,13 +145,14 @@
 				"name": "Philosophy",
 				"row": 2,
 				"prerequisites": ["Writing","Calendar"],
-                                "uniques": ["Enables Open Borders agreements", "Enables conversion of city production to [Science]","Enables Research agreements"],
+                                "uniques": ["Enables Defensive Pacts", "Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
 				"name": "Drama and Poetry",
 				"row": 3,
 				"prerequisites": ["Writing"],
+				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
@@ -186,7 +188,7 @@
 				"name": "You... shall not... PASS!!",
 				"row": 6,
 				"prerequisites": ["Engineering","Philosophy","Drama and Poetry","Currency","Iron Working"],
-				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched", "[+1 Gold, +1 Culture, +1 Production, +1 Food, +1 Happiness] [in capital]"],
+				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched", "[-10]% Culture cost of adopting new Policies", "[+1 Gold, +1 Culture, +1 Production, +1 Food, +1 Happiness] [in all cities]"],
 				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No... it's ok now, just no farther. Nice science, here's a bone."
 			},
 		]

@@ -175,47 +175,8 @@
 			}
 		]
 	},
-        {
-                "columnNumber": 5,
-                "era": "Classical era",
-                "techCost": 210,
-                "buildingCost": 175,
-                "wonderCost": 350,
-                "techs": [
-                        {
-                                "name": "Astral Navigation",
-                                "cost": 175,
-                                "row": 1,
-                                "prerequisites": ["Sailing"],
-                                "uniques": ["[+1] Movement <for [Naval] units>"],
-                                "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
-                        },
-                        {
-                                "name": "Stirrups",
-                                "row": 5,
-				"uniques": ["[+1] Movement <for [Mounted] units>", "[+10]% Strength <for [Mounted] units>"],
-                                "prerequisites": ["Trapping","The Wheel"],
-                                "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
-                        },
-                        {
-                                "name": "Apprenticeship",
-                                "row": 7,
-                                "prerequisites": ["The Wheel"],
-				"uniques": ["[+1 Gold] from every specialist [in all cities]"],
-                                
-                                "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
-                        },
-                        {
-                                "name": "Military Theory",
-                                "row": 9,
-				"uniques": ["[+15]% Strength <for [Sword] units>"],
-                                "prerequisites": ["Masonry","The Wheel"],
-                                "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
-                        }
-                ]
-        },
 	{
-		"columnNumber": 6,
+		"columnNumber": 5,
 		"era": "Classical era",
 		"techCost": 1500,
 		"buildingCost": 200,
@@ -231,7 +192,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 6,
 		"era": "Medieval era",
 		"techCost": 500000,
 		"buildingCost": 500000,
@@ -245,9 +206,8 @@
 			},
 {
 				"name": "Compass",
-				"cost": 9999999,
 				"row": 1,
-				"prerequisites": ["Optics","Theology"],
+				"prerequisites": ["You... shall not... PASS!!"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
@@ -272,7 +232,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 999999485,
 		"buildingCost": 999160,
@@ -320,7 +280,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 8,
 		"era": "Renaissance era",
 		"techCost": 79999980,
 		"buildingCost": 999200,
@@ -360,7 +320,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 199150,
 		"buildingCost": 999250,
@@ -399,7 +359,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 991600,
 		"buildingCost": 999300,
@@ -444,7 +404,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 239950,
 		"buildingCost": 999360,
@@ -478,7 +438,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 12,
 		"era": "Modern era",
 		"techCost": 993100,
 		"buildingCost": 999500,
@@ -517,7 +477,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 499100,
 		"buildingCost": 999500,
@@ -550,7 +510,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 14,
 		"era": "Atomic era",
 		"techCost": 995100,
 		"buildingCost": 999500,
@@ -583,7 +543,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 996400,
 		"buildingCost": 999500,
@@ -616,7 +576,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 997700,
 		"buildingCost": 999750,
@@ -651,70 +611,4 @@
 				"name": "Robotics",
 				"row": 7,
 				"prerequisites": ["Rocketry","Computers"],
-				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
-			},
-			{
-				"name": "Lasers",
-				"row": 8,
-				"prerequisites": ["Computers"],
-				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
-			}
-		]
-	},
-
-	{
-		"columnNumber": 18,
-		"era": "Information era",
-		"techCost": 998800,
-		"buildingCost": 999750,
-		"wonderCost": 991250,
-		"techs": [
-			{
-				"name": "Globalization",
-				"row": 2,
-				"prerequisites": ["Telecommunications"],
-				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
-			},
-			{
-				"name": "Particle Physics",
-				"row": 3,
-				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics"],
-				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
-			},
-			{
-				"name": "Nuclear Fusion",
-				"row": 6,
-				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
-				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
-			},
-			{
-				"name": "Nanotechnology",
-				"row": 7,
-				"prerequisites": ["Robotics"],
-				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
-			},
-			{
-				"name": "Stealth",
-				"row": 8,
-				"prerequisites": ["Robotics", "Lasers"],
-				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
-			}
-		]
-	},
-	{
-		"columnNumber": 19,
-		"era": "Future era",
-		"techCost": 999500,
-		"buildingCost": 999750,
-		"wonderCost": 991250,
-		"techs": [
-			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			}
-		]
-	}
-]
+				"quote": "'1. A robot may not injure a human being or, through inac

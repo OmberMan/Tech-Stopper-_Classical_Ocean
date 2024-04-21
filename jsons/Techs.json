@@ -227,7 +227,7 @@
 			},
 			{
 				"name": "Metal Casting",
-				"row": 9,
+				"row": 4,
 				"prerequisites": ["You... shall not... PASS!!"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}

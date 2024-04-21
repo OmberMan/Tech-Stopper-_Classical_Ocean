@@ -7,7 +7,7 @@
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "You",
+		"requiredTech": "You... shall not... PASS!!",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", "Consumes [2] [Uranium]"],
 		"attackSound": "nuke"

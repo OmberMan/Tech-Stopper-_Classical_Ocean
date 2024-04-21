@@ -58,10 +58,11 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+15]% [Food] from every [Palace]",
-                    "[+1 Food] from every [Walls]",
-                    "[+1 Food] from every [Castle]",
-                    "[+1 Food] from every [Arsenal]",
-                    "[+1 Food] from every [Military Base]",
+                    "[+5]% [Food] from every [Walls]",
+                    "[+5]% [Food] from every [Castle]",
+		    "[+5]% [Food] from every [Arsenal]",
+		    "[+5]% [Food] from every [Military Base]",
+                    "[+5]% [Food] from every [Bomb Shelter]",
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -505,7 +506,7 @@
 			},
 						{
 				"name": "Naval Tradition",
-				"uniques": ["[+1 Happiness, +1 Gold, + Food, +1 Culture] from every [Lighthouse]","[+1 Happiness, +1 Production, +2 Gold] from every [Harbor]", "[-33]% maintenance costs <for [Water] units>"],
+				"uniques": ["[+1 Happiness, +1 Gold, +1 Food, +1 Culture] from every [Lighthouse]","[+1 Happiness, +1 Production, +2 Gold] from every [Harbor]", "[-33]% maintenance costs <for [Water] units>"],
 				"row": 1,
 				"column": 4
 			},

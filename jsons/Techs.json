@@ -613,4 +613,7 @@
 				"name": "Robotics",
 				"row": 7,
 				"prerequisites": ["Rocketry","Computers"],
-				"quote": "'1. A robot may not injure a human being or, through inac
+			}
+		]
+	}
+		]

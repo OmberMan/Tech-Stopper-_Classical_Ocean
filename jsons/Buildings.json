@@ -67,7 +67,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Ironworking"
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Grand Temple",

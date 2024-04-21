@@ -67,7 +67,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Ironworks"
+		"requiredTech": "Ironworking"
 	},
 	{
 		"name": "Grand Temple",
@@ -194,7 +194,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1},
 		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]", "[+20]% Great Person generation [in this city]"],
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+20]% Great Person generation [in this city]"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -225,7 +225,7 @@
         "percentStatBonus": {"gold": 33},
         "isNationalWonder": true,
         "specialistSlots": {"Merchant": 2},
-        "uniques": ["[+4 Gold] from each Trade Route",
+        "uniques": ["[+4 Gold] from each Trade Route", "Gain an extra spy",
             "Cost increases by [20] per owned city","Requires a [Market] in all cities"],
         "requiredTech": "Currency"
     },
@@ -255,7 +255,7 @@
 	{
         "name": "Parthenon", 
         "culture": 4,
-        "faith": 2
+        "uniques": ["Gain an extra spy"],
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 2},
         "requiredTech": "Drama and Poetry",

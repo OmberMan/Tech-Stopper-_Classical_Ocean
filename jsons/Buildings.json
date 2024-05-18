@@ -24,7 +24,7 @@
   "faith": 2,
 		"specialistSlots": {"Oracle of Delphi": 1},
 		"isWonder": true,
-		"uniques": ["Free Social Policy"],
+		"uniques": ["Free Social Policy", "[+33]% spy effectiveness [in all cities]"],
 		"requiredTech": "Philosophy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
@@ -84,7 +84,7 @@
 		"culture": 3,
 		"cityStrength": 12,
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings", "Enables nuclear weapon", "Triggers a global alert upon completion"],
+		"uniques": ["[+25]% City Strength from defensive buildings", "New spies start with [2] level(s)", "Enables nuclear weapon", "Triggers a global alert upon completion"],
 		"requiredTech": "You... shall not... PASS!!",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
@@ -237,7 +237,7 @@
   "cost": 1500,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Philosophy",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion", "[+33]% enemy spy effectiveness [in this city]", " "],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 

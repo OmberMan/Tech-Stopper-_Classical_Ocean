@@ -5,13 +5,23 @@
   "culture": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
+		"requiredTech": "Drama and Poetry"
+	},
+{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Gain an extra spy"],
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Chichen Itza",
-		"culture": 1,
+		"culture": 2,
 		"happiness": 3,
-  "faith": 1,
+  "faith": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[+50]% Golden Age length"],
@@ -54,7 +64,7 @@
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
-		"maintenance": 3,
+		"maintenance": 2,
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
@@ -66,7 +76,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Must have an owned [Iron] within [3] tiles"],
 		"requiredTech": "Iron Working"
 	},
 	{
@@ -84,7 +94,7 @@
 		"culture": 3,
 		"cityStrength": 12,
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings", "New spies start with [2] level(s)", "Enables nuclear weapon", "Triggers a global alert upon completion"],
+		"uniques": ["[+25]% City Strength from defensive buildings", "New spies start with [2] level(s)", "Enables nuclear weapon", "Triggers a global alert upon completion", "[-33]% enemy spy effectiveness [in all cities]"],
 		"requiredTech": "You... shall not... PASS!!",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
@@ -154,7 +164,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-45]% maintenance cost for buildings [in this city]", "[+15]% Production when constructing [All] buildings [in all cities]"],
-		"requiredTech": "Philosophy",
+		"requiredTech": "Engineering",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
 	{
@@ -166,7 +176,7 @@
 		"hurryCostModifier": 30,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Engineering",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured", "[-15]% enemy spy effectiveness [in this city]"],
 	},
 	{
 		"name": "Armory",
@@ -192,10 +202,10 @@
 		"hurryCostModifier": 30,
   "greatPersonPoints": {"Great Scientist": 1},
 		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1},
+		"specialistSlots": {"Scientist": 1, "Artist": 1, "Engineer": 1, "Merchant": 1},
 		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+20]% Great Person generation [in this city]"],
-		"requiredTech": "Drama and Poetry"
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+25]% Great Person generation [in this city]", "[+20]% enemy spy effectiveness [in this city]"],
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Himeji Castle",
@@ -236,8 +246,8 @@
 		"culture": 1,
   "cost": 1500,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "Philosophy",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion", "[+33]% enemy spy effectiveness [in this city]", " "],
+		"requiredTech": "You... shall not... PASS!!",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion", "[+33]% enemy spy effectiveness [in this city]", "Gain an extra spy"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 

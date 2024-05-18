@@ -316,7 +316,7 @@
             "Domination": 10,
             "Scientific": 15
         },
-        "uniques": ["[-25]% City-State Influence degradation"],
+        "uniques": ["[-25]% City-State Influence degradation", "Enables Defensive Pacts"],
         "policies": [
             {
                 "name": "Philantropy",
@@ -329,7 +329,7 @@
             {
                 "name": "Consulates",
                 "uniques": [
-                    "[+1 Science] from every [Artist]", "Gain [10] Influence with a [Scout] gift to a City-State",  "Gain [10] Influence with a [Worker] gift to a City-State"
+                    "[+1 Science] from every [Artist]", "Gain [10] Influence with a [Scout] gift to a City-State",  "Gain [10] Influence with a [Worker] gift to a City-State", "[+50]% spy effectiveness [in city-state cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -357,7 +357,7 @@
                 "name": "Educated Elite",
                 "requires": ["Scholasticism", "Cultural Diplomacy"],
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People", "[+33 Science, +33 Culture] whenever a Great Person is expended"
+                    "Allied City-States will occasionally gift Great People", "[+33 Science, +33 Culture] whenever a Great Person is expended", "Gain an extra spy"
                 ],
                 "row": 3,
                 "column": 4
@@ -500,7 +500,7 @@
         "policies": [
 			{
 				"name": "Maritime Infrastructure",
-				"uniques": ["[+2 Production, +1 Food] [in all coastal cities]", "[+1 Gold] from [Water resource] tiles [in all coastal cities]"],
+				"uniques": ["[+2 Production, +1 Food] [in all coastal cities]", "[+1 Gold] from [Water resource] tiles [in all coastal cities]", "Gain an extra spy"],
 				"row": 1,
 				"column": 2
 			},
@@ -512,7 +512,7 @@
 			},
 			{
 				"name": "Merchant Navy",
-				"uniques": ["Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[+20]% Production when constructing [Water] units [in all cities]"],
+				"uniques": ["Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[+25]% spy effectiveness [in all cities]", "[+20]% Production when constructing [Water] units [in all cities]"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
 				"row": 2,
 				"column": 3
@@ -533,7 +533,7 @@
 			},
 			{
 				"name": "Exploration Complete",
-				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]", "Earn [10]% of killed [Water] unit's [Cost] as [Gold]"]
+				"uniques": ["[+3 Gold] from every [Lighthouse]","[+15]% [Gold] from every [Harbor]","[+2 Gold, +2 Production, +2 Science] from every [Seaport]", "Earn [50]% of killed [Water] unit's [Cost] as [Gold]"]
 			}
 		]
 	},
@@ -549,6 +549,7 @@
         },
         "uniques": [
             "[+10]% [Science]",
+"[+25]% Yield from every [Science]",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -563,10 +564,13 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness, +1 Food] from every [Library]",
-                    "[+1 Happiness, +1 Food] from every [University]",
-                    "[+1 Happiness, +1 Food] from every [Observatory]",
-                    "[+1 Happiness, +1 Food] from every [Public School]"
+                    "[+2 Happiness, +1 Food] from every [Library]",
+"[+5]% [Culture] from every [Library]",
+"[+5]% [Food] from every [University]",
+                    "[+2 Happiness, +1 Food] from every [University]",
+"[+5]% [Culture] from every [Observatory]",
+                    "[+2 Happiness, +1 Food] from every [Observatory]",
+                    "[+2 Happiness, +1 Food] from every [Public School]", "[+5] HP when healing" 
                 ],
                 "row": 1,
                 "column": 4
@@ -574,7 +578,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
+                    "[+1 Science, +1 Culture] from every [Trading post]", "New spies start with [1] level(s)",
                     "[+17]% [Science] from every [University]", "[-50]% Unhappiness from [Specialists] [in all cities]"
                 ],
                 "requires": ["Secularism"],
@@ -583,7 +587,7 @@
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "uniques": ["[+1 Gold] from all [Science] buildings", "[+5]% [Gold] from every [Science]", "[+2] XP gained from combat"],
                 "requires": ["Humanism"],
                 "row": 2,
                 "column": 4
@@ -709,7 +713,7 @@
                 "name": "Police State",
                 "uniques": [
                     "[+3 Happiness, +1 Production] from every [Courthouse]", "[+3 Production] [in all cities with a garrison]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]", "[-20]% Culture cost of natural border growth [in all cities]"
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]", "[-20]% Culture cost of natural border growth [in all cities]", "[-40]% enemy spy effectiveness [in all cities]"
                 ],
                 // There are also some uniques regarding espoinage, which as of this writing is not yet implemented
                 "requires": ["Militarism"],

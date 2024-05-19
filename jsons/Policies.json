@@ -549,7 +549,7 @@
         },
         "uniques": [
             "[+10]% [Science]",
-"[+25]% Yield from every [Science]",
+"[+2]% Yield from every [Science]",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [

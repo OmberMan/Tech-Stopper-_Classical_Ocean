@@ -1,4 +1,68 @@
 [
+	        {
+                "name": "Jaguar",
+                "unitType": "Sword",
+                "uniqueTo": "Aztecs",
+                "replaces": "Warrior",
+                "movement": 2,
+                "strength": 8,
+                "cost": 56,
+                "obsoleteTech": "Gunpowder",
+                "promotions": ["[Jaguar] ability","Woodsman", "Scorching"],
+                "upgradesTo": "Musketman",
+			"uniques": ["[+60]% Strength <after discovering [Iron Working]>"],
+                "attackSound": "nonmetalhit"
+        },
+	        {
+                "name": "Dromon",
+                "unitType": "Ranged Water",
+                "uniqueTo": "Byzantium",
+                "replaces": "Trireme",
+                "movement": 4,
+                "strength": 8,
+                "rangedStrength": 10,
+                "cost": 56,
+                "requiredTech": "Sailing",
+			 "promotions": ["Scorching"],
+                "uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+                "upgradesTo": "Galleass",
+                "obsoleteTech": "Astronomy",
+                "attackSound": "fire"
+        },
+	        {
+                "name": "Longbowman",
+                "unitType": "Archery",
+                "range": 2,
+                "movement": 2,
+                "strength": 7,
+                "rangedStrength": 11,
+                "replaces": "Crossbowman",
+                "uniqueTo": "England",
+                "cost": 75,
+                "requiredTech": "Construction",
+                "upgradesTo": "Gatling Gun",
+                "obsoleteTech": "Industrialization",
+                "promotions": ["Extended Range"],
+                "attackSound": "arrow"
+        },
+	        {
+                "name": "Conquistador",
+                "unitType": "Mounted",
+                "replaces": "Horseman",
+                "uniqueTo": "Spain",
+                "movement": 4,
+                "strength": 14,
+                "cost": 85,
+                "requiredTech": "Horseback Riding",
+                "requiredResource": "Horses",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Military Science",
+                "uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+1] Sight", "Upon capturing a city, receive [2] times its [Culture] production as [Gold] immediately", "Upon capturing a city, receive [2] times its [Gold] production as [Gold] immediately"],
+                "promotions": ["[Conquistador] ability"],
+                "attackSound": "horse"
+                //Conquistador should have no penalty attacking cities
+                //Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+        },
 {
 		"name": "Nuclear Missile",
 		"unitType": "Missile",

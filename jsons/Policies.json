@@ -298,10 +298,11 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
+"[+1 Happiness] per every [50] [Faith]",
                     "[+1 Food] from every [Shrine]",
-                    "[+1 Food] from every [Temple]",
+                    "[+2 Food] from every [Temple]",
                     "May buy [Military] units with [Faith] for [3] times their normal Production cost",
-                    "May buy [All] buildings with [Faith] for [3] times their normal Production cost"
+                    "May buy [All] buildings with [Faith] for [5] times their normal Production cost"
                 ]
             }
         ]
@@ -321,7 +322,7 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Gifts of Gold to City-States generate [33]% more Influence"
                 ],
                 "row": 1,
                 "column": 2
@@ -549,7 +550,7 @@
         },
         "uniques": [
             "[+10]% [Science]",
-"[+2]% Yield from every [Science]",
+"[+1]% Yield from every [Science]",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -626,7 +627,7 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture, +3 Happiness] from every [Wonder]", "[+1 Happiness] from every specialist [in all non-occupied cities]"],
+                "uniques": ["[+2 Culture, +3 Happiness] from every [Wonder]", "[+1 Happiness, +1 Gold] from every specialist [in all non-occupied cities]"],
                 "row": 1,
                 "column": 1
             },
@@ -639,7 +640,7 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]", "[10]% Food is carried over after population increases [in all non-occupied cities] <while the empire is happy>"
+                    "[-50]% Food consumption by specialists [in all cities]", "[10]% Food is carried over after population increases [in all non-occupied cities] <while the empire is happy>", "[+2 Gold, +1 Science, +1 Culture, +1 Happiness] per every [150] [Gold]"
                 ],
                 "row": 1,
                 "column": 5

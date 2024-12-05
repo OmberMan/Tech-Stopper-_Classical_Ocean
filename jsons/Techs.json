@@ -180,7 +180,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 5500,
+		"techCost": 10000,
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
@@ -188,7 +188,7 @@
 				"name": "You... shall not... PASS!!",
 				"row": 6,
 				"prerequisites": ["Engineering","Philosophy","Drama and Poetry","Currency","Iron Working"],
-				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched", "[+10]% Strength", "[-10]% Culture cost of adopting new Policies", "[+1 Gold, +1 Culture, +1 Production, +1 Food, +1 Happiness] [in all cities]", "[+1 Gold, +1 Culture] per every [2] [Science]"],
+				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched", "[+10]% Strength", "[-10]% Culture cost of adopting new Policies", "[+1 Gold, +1 Culture, +1 Production, +1 Food, +1 Happiness] [in all cities]", "[+1 Gold, +1 Culture, +1 Happiness] per every [10] [Science]"],
 				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No... it's ok now, just no farther. Nice science, here's a bone."
 			},
 		]
@@ -196,7 +196,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 500000,
+		"techCost": 5000000,
 		"buildingCost": 500000,
 		"wonderCost": 500000,
 		"techs": [

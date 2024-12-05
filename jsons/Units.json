@@ -193,7 +193,7 @@
                 "requiredTech": "Horseback Riding",
                 "requiredResource": "Horses",
                 "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-                "promotions": ["[Hakkapeliitta] ability","Formation I", "Great Generals I'],
+                "promotions": ["[Hakkapeliitta] ability","Formation I", "Great Generals I" ],
                 "upgradesTo": "Anti-Tank Gun",
                 "obsoleteTech": "Combined Arms",
                 "attackSound": "horse"

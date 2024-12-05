@@ -158,7 +158,7 @@
                 "replaces": "Trireme",
                 "uniqueTo": "The Netherlands",
                 "movement": 5,
-                "strength": 11,
+                "strength": 10,
                 "cost": 65,
                 "requiredTech": "Optics",
                 "upgradesTo": "Destroyer",
@@ -193,7 +193,7 @@
                 "requiredTech": "Horseback Riding",
                 "requiredResource": "Horses",
                 "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-                "promotions": ["[Hakkapeliitta] ability","Formation I"],
+                "promotions": ["[Hakkapeliitta] ability","Formation I", "Great Generals I'],
                 "upgradesTo": "Anti-Tank Gun",
                 "obsoleteTech": "Combined Arms",
                 "attackSound": "horse"
@@ -291,7 +291,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+			"[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]"],
 		"promotions": ["Shock I","Formation I","Heavy Charge", "Shock and Awe II"],
 		"attackSound": "horse"
 	},
@@ -322,7 +322,7 @@
 		"upgradesTo": "Landship",
 		"promotions": ["Homeland Guardian","Desert Warrior"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+			"[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]"],
 		"attackSound": "horse"	
 	},
 	{
@@ -337,7 +337,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+			"[-50]% Strength <vs cities> <when attacking>", "No movement cost to pillage", "Consumes [2] [Horses]", "May withdraw before melee ([50]%)", "Earn [10]% of the damage done to [Land] units as [Culture]"],
 		"attackSound": "horse"
 	},
 ]

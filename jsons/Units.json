@@ -36,7 +36,7 @@
                 "movement": 2,
                 "strength": 7,
                 "rangedStrength": 11,
-                "replaces": "Crossbowman",
+                "replaces": "Composite Bowman",
                 "uniqueTo": "England",
                 "cost": 75,
                 "requiredTech": "Construction",
@@ -57,7 +57,7 @@
                 "requiredResource": "Horses",
                 "upgradesTo": "Cavalry",
                 "obsoleteTech": "Military Science",
-                "uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+1] Sight", "Upon capturing a city, receive [2] times its [Culture] production as [Gold] immediately", "Upon capturing a city, receive [2] times its [Gold] production as [Gold] immediately"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "No movement cost to pillage", "[+1] Sight", "Upon capturing a city, receive [2] times its [Culture] production as [Gold] immediately", "Upon capturing a city, receive [2] times its [Gold] production as [Gold] immediately"],
                 "promotions": ["[Conquistador] ability"],
                 "attackSound": "horse"
                 //Conquistador should have no penalty attacking cities
@@ -89,6 +89,7 @@
                 "obsoleteTech": "Rifling",
                 "hurryCostModifier": -25,
                 "attackSound": "metalhit"
+"promotions": ["Quick Study"],
                 "uniques": ["Can move immediately once bought","Cheaper to buy"],
         },
 	        {
@@ -270,7 +271,7 @@
                 "replaces": "Pikeman",
                 "uniqueTo": "Papal States",
                 "movement": 2,
-                "strength": 17,
+                "strength": 14,
                 "cost": 150,
                 "requiredTech": "Currency",
                 "promotions": ["Formation I"],
